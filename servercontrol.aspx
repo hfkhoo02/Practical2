@@ -1,10 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="servercontrol.aspx.cs" Inherits="Practical2.servercontrol" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+﻿<%@ Page Language="C#" MasterPageFile="~/Practical2.Master" AutoEventWireup="true" CodeBehind="servercontrol.aspx.cs" Inherits="Practical2.servercontrol" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <style type="text/css">
         .auto-style1 {
             width: 192px;
@@ -30,10 +25,7 @@
         .auto-style7 {
             height: 35px;
         }
-    </style>
-</head>
-<body>
-    <form id="form1" runat="server">  
+    </style> 
         <div>
             <table style="width: 100%;">
                 <tr>
@@ -73,6 +65,4 @@
             </table>
             <asp:Label ID="lblSelect" runat="server" Text="[lblSelect]"></asp:Label>
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>
