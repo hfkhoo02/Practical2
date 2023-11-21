@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Practical2.Master" AutoEventWireup="true" CodeBehind="servercontrol.aspx.cs" Inherits="Practical2.servercontrol" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <%--<style type="text/css">
+    <style type="text/css">
         .auto-style1 {
             width: 192px;
         }
@@ -25,7 +25,7 @@
         .auto-style7 {
             height: 35px;
         }
-    </style> --%>
+    </style> 
         <div>
             <table style="width: 100%;">
                 <tr>
