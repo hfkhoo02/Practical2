@@ -29,5 +29,7 @@ namespace Practical2
             + "You have selected : </br>"
             + msg + " as your area of interest";
         }
+
+        
     }
 }

@@ -1,15 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DatabaseList.aspx.cs" Inherits="Practical2.DatabaseList" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Practical2.Master" CodeBehind="DatabaseList.aspx.cs" Inherits="Practical2.DatabaseList" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <strong><span class="auto-style6">Welcome to Course Registration DatabaseList</span></strong>
+</asp:Content>
